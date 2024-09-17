@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  webapi:
+    build:
+      context: .
+      dockerfile: TaxPayApi/TaxPayApi/src/WebApi/Dockerfile
+    ports:
+      - "5001:5001"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - app-network
+
+  reactapp:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - webapi
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

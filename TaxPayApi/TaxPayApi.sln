@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "TaxPayApi\tests\Application.UnitTests\Application.UnitTests.csproj", "{45BDC8DF-EDB7-4B72-B18D-7AF3901697C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.IntegrationTests", "TaxPayApi\tests\Application.IntegrationTests\Application.IntegrationTests.csproj", "{AB68AC24-CF92-4B36-B8DE-D19E977A6E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "TaxPayApi\tests\Domain.UnitTests\Domain.UnitTests.csproj", "{475DA9D5-3AB2-471E-B3BE-A05A8CF58C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "TaxPayApi\src\WebApi\WebApi.csproj", "{32C43AC6-B300-4C81-88D4-857162344C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "TaxPayApi\src\Application\Application.csproj", "{FC75321C-3BFB-4334-8BC7-23449ADB89A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "TaxPayApi\src\Infrastructure\Infrastructure.csproj", "{C0A73091-6E97-4340-B8CE-052B07B68AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "TaxPayApi\src\Domain\Domain.csproj", "{57B10172-DE9E-4935-BD01-83D356496462}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45BDC8DF-EDB7-4B72-B18D-7AF3901697C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BDC8DF-EDB7-4B72-B18D-7AF3901697C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BDC8DF-EDB7-4B72-B18D-7AF3901697C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BDC8DF-EDB7-4B72-B18D-7AF3901697C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB68AC24-CF92-4B36-B8DE-D19E977A6E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB68AC24-CF92-4B36-B8DE-D19E977A6E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB68AC24-CF92-4B36-B8DE-D19E977A6E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB68AC24-CF92-4B36-B8DE-D19E977A6E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475DA9D5-3AB2-471E-B3BE-A05A8CF58C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475DA9D5-3AB2-471E-B3BE-A05A8CF58C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475DA9D5-3AB2-471E-B3BE-A05A8CF58C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475DA9D5-3AB2-471E-B3BE-A05A8CF58C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C43AC6-B300-4C81-88D4-857162344C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C43AC6-B300-4C81-88D4-857162344C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C43AC6-B300-4C81-88D4-857162344C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C43AC6-B300-4C81-88D4-857162344C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC75321C-3BFB-4334-8BC7-23449ADB89A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC75321C-3BFB-4334-8BC7-23449ADB89A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC75321C-3BFB-4334-8BC7-23449ADB89A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC75321C-3BFB-4334-8BC7-23449ADB89A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A73091-6E97-4340-B8CE-052B07B68AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A73091-6E97-4340-B8CE-052B07B68AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A73091-6E97-4340-B8CE-052B07B68AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A73091-6E97-4340-B8CE-052B07B68AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B10172-DE9E-4935-BD01-83D356496462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B10172-DE9E-4935-BD01-83D356496462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B10172-DE9E-4935-BD01-83D356496462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B10172-DE9E-4935-BD01-83D356496462}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
